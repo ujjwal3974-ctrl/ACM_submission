@@ -10,9 +10,9 @@ int main(){
         cin >> arr[i]; 
     }
 
-    int count = 0;
+    long long count = 0;
     for(int i = 0; i < size; i++){
-        int currSum = 0;
+        long long currSum = 0;
         for(int j = i; j < size; j++){
             currSum += arr[j];
             if(currSum == target) count++;
